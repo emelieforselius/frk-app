@@ -6,8 +6,8 @@ on:
     paths:
         - 'package.json'
 jobs:
-  any-job: 
+  deploy-to-stage: 
     runs-on: ubuntu-latest
     steps: 
-      - name: any-step
+      - name: hello-world
         run: echo "Hello World!"
